@@ -1,0 +1,10 @@
+--- libqtpod-0.4.2/src/utils.h.orig	2008-09-01 08:38:31.000000000 +0000
++++ libqtpod-0.4.2/src/utils.h	2008-09-01 08:41:41.000000000 +0000
+@@ -41,6 +41,7 @@
+ #endif
+ 
+ #include <vector>
++#include <algorithm>
+ 
+ #define MAC_EPOCH_DELTA 2082844800
+ 
