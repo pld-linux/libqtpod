@@ -35,7 +35,7 @@ Pliki nagłówkowe dla programistów używających libqtpod.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 QTDIR=/usr qmake
